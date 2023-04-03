@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+}
+:root{
+      --body-color:#212428;
+      --white-900: #c4cfde;
+      --red: #f9004d;
+      --gray-900:#32363b;
+      --black-900:#191b1e;
+      --white-800:#e4e6ea;
+      --black-800: #878e99;
+      --main-font:'Montserrat';
+      --poppins: 'Poppins';
+      --shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+body{
+    background-color: var(--body-color);
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.toggle{
+    color: var(--white-900);
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.justify-conetnt-between{
+    justify-content: space-between;
+}
+.justify-conetnt-center{
+    justify-content: center;
+}
+.justify-conetnt-end{
+    justify-content: flex-end;
+}
+.align-item-center{
+    align-items: center;
+}
+.w-20{
+   width:20%;
+}
+.w-80{
+    width: 80%;
+}
+.w-33{
+    width: 33.33%;
+    padding: 12px;
+}
+.w40{
+    width: 40%;
+}
+.w60{
+    width: 60%;
+}
+.w25{
+    width: 25%;
+}
+.w50{
+    width: 50%;
+}
+.w30{
+    width: 30%;
+}
+.w70{
+    width: 70%;
+}
+.line{
+    width: 100%;
+}
+.devider{
+    width: 100%;
+    border: 2px solid var(--black-900);
+}
+
